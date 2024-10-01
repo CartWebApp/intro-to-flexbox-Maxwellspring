@@ -9,6 +9,7 @@
   text-align: center;
   text-shadow:4px 4px 0 rgba(0,0,0,0.1);
   padding:10px;
+
 }
 
 /* Colors for each box */
@@ -27,40 +28,63 @@
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
   border:10px solid goldenrod;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding: 1%;
+  justify-content: space-around;
+  padding-left: .25%;
+  padding-right: .25%;
+  /* max-width: 820px; */
+  max-width: 820px;
+  margin: 0 auto;
 }
 
 [class^="box"] {
-    
+
+
+
 }
 
 .box1 {
-    
+  width: 99%;
+  height: 33.78%;
 }
 
 .box2 {
-
+  width: 49%;
+  height: 25.09%;
 }
 .box3 {
-
+  width: 49%;
+  height: 25.09%;
 }
 .box4 {
-
+  width: 24%;
+  height: 18.48%;
 }
 .box5 {
-
+  width: 24%;
+  height: 18.48%;
 }
 .box6 {
-
+  width: 24%;
+  height: 18.48%;
 }
 .box7 {
-
+  width: 24%;
+  height: 18.48%;
 }
 .box8 {
-
+  width: 32.3333%;
+  height: 18.48%;
 }
 .box9 {
-
+  width: 32.3333%;
+  height: 18.48%;
 }
 .box10 {
-
+  width: 32.3333%;
+  height: 18.48%;
 }
